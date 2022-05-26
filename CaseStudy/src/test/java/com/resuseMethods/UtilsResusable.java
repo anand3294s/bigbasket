@@ -151,7 +151,7 @@ public class UtilsResusable {
 
 		BufferedImage sourceImage = robot.createScreenCapture(rectangle);
 
-		File dest = new File("C:\\Users\\Surendra Anand R\\eclipse-workspace\\CaseStudy\\Output\\" + "Screesnhot-"
+		File dest = new File("C:\\Users\\Surendra Anand R\\git\\repository\\CaseStudy\\Output\\" + "Screesnhot-"
 				+ dateFormatFile.format(date) + ".jpeg");
 
 		ImageIO.write(sourceImage, "jpeg", dest);
